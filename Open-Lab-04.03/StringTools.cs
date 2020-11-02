@@ -4,9 +4,11 @@ namespace Open_Lab_04._03
 {
     public class StringTools
     {
-        public string RemoveFirstLast(string original)
+        public string RemoveFirstLast(string str)
         {
-            throw new NotImplementedException();
+           str = "hello";
+           str = str.Substring(1, str.Length - 2);
+            return str;
         }
     }
 }
